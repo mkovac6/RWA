@@ -1,0 +1,54 @@
+﻿@model IEnumerable<AdventureWorksManager.Models.BillItem>
+
+@{
+    ViewBag.Title = "GetBillItems";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-6">Viewing bill @ViewBag.bill.BillNumber</h2>
+<h2 class="display-6">Issued on: @ViewBag.bill.IssueDate.ToString("dd/MM/yyyy")</h2>
+<h2 class="display-6">Issued by: @ViewBag.bill.Seller.FirstName @ViewBag.bill.Seller.LastName</h2>
+<h2 class="display-6">Payment method: @ViewBag.bill.CreditCard.Type @ViewBag.bill.CreditCard.CardNumber</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Product
+        </th>
+        <th>
+            Subcategory
+        </th>
+        <th>
+           Category
+        </th>
+        <th>
+           Amount
+        </th>
+        <th>
+            Price
+        </th>
+        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Subcategory.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Product.Subcategory.Category.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalPrice)
+        </td>
+        
+    </tr>
+}
+
+</table>

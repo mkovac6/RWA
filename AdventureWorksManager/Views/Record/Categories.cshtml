@@ -1,0 +1,117 @@
+﻿
+
+@{
+    ViewBag.Title = "Categories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    function deleteCategory(id) {
+
+      
+
+        if (confirm('Are you sure you want to delete this category? Doing so will delete all of its subcategories and products')) {
+
+
+            $.ajax({
+                url: ' @Url.RouteUrl("Categories")',
+                method: 'post',
+                data: { catInfo: id, action : '0' },
+                success: function () {
+
+                    location.reload();
+
+
+                }
+            })
+
+        }
+
+    }
+
+    function addCategory() {
+
+        var name = $('#txtName').val();
+
+        var iChars = "!@@#$%^&*()+=[]\\\';/{}|\":<>?";
+        let valid = 1;
+
+        for (var j = 0; j < name.length; j++) {
+            if (iChars.indexOf(name.charAt(j)) != -1) {
+                valid = 0;
+                break;
+            }
+        }
+
+        if (name === "" || valid === 0 || name.trim() === "") {
+            alert('Name is mandatory and must not contain special characters!')
+        }
+        else {
+             $.ajax({
+                url: ' @Url.RouteUrl("Categories")',
+                method: 'post',
+                 data: { catInfo: name, action: '1' },
+                dataType : 'text',
+                success: function () {
+
+                    alert('Category added')
+                    location.reload();
+
+                }
+            })
+        }
+
+    }
+</script>
+
+
+<div class="container">
+
+<h2>Categories</h2>
+    
+    <div id="dltContainer" class="container-sm">
+        <table id="catTable" class="table">
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Category Name
+                </th>
+                <th>
+
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                       @item.ID
+                    </td>
+                    <td>@item.Name
+                        
+                    </td>
+                    <td>
+                        @Html.RouteLink("Edit", "EditCategory", new { catId = item.ID }, new { @class = "btn btn-primary"})
+                        <button name="@item.ID" class="btn btn-danger" onclick="deleteCategory(this.name)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    <div id="addContainer" class="form-horizontal">
+        <div class="form-group">
+            <h3>Add new category</h3>
+        </div>
+        <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+            <label for="txtName">Category name: </label>
+            <input type="text" id="txtName" />
+        </div>
+        <div class="form-group">
+            <button class="btn btn-secondary" id="btnAddNew" onclick="addCategory()">Add</button>
+        </div>
+        
+    </div>
+
+    </div>

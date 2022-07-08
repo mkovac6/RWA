@@ -1,0 +1,214 @@
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\AdventureWorksManager.dll.config
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\AdventureWorksManager.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\AdventureWorksManager.pdb
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\Microsoft.ApplicationBlocks.Data.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\Microsoft.Web.Infrastructure.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Helpers.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Mvc.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Razor.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Webpages.Deployment.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Webpages.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Webpages.Razor.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Razor.xml
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Webpages.xml
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Webpages.Deployment.xml
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Webpages.Razor.xml
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Helpers.xml
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Mvc.xml
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+B:\Prog\RWA Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.csprojAssemblyReference.cache
+B:\Prog\RWA Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.CoreCompileInputs.cache
+B:\Prog\RWA Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.CopyComplete
+B:\Prog\RWA Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.pdb
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\Antlr3.Runtime.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\Newtonsoft.Json.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Optimization.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\WebGrease.dll
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\Antlr3.Runtime.pdb
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\Newtonsoft.Json.xml
+B:\Prog\RWA Projekt\AdventureWorksManager\bin\System.Web.Optimization.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\AdventureWorksManager.dll.config
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\AdventureWorksManager.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\AdventureWorksManager.pdb
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\csc.exe
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\csc.exe.config
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\csc.rsp
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\csi.exe
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\csi.exe.config
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\csi.rsp
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\System.Buffers.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\System.Memory.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\vbc.exe
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\vbc.exe.config
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\vbc.rsp
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\VBCSCompiler.exe
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\Antlr3.Runtime.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\Newtonsoft.Json.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Helpers.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Mvc.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Optimization.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Razor.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Webpages.Deployment.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Webpages.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Webpages.Razor.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\WebGrease.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\Antlr3.Runtime.pdb
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\Newtonsoft.Json.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Optimization.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Razor.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Webpages.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Webpages.Deployment.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Webpages.Razor.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Helpers.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\bin\System.Web.Mvc.xml
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.AssemblyReference.cache
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.CoreCompileInputs.cache
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.CopyComplete
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.dll
+C:\Users\medical\Downloads\RWA_Projekt\AdventureWorksManager\obj\Debug\AdventureWorksManager.pdb
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\AdventureWorksManager.dll.config
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\AdventureWorksManager.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\AdventureWorksManager.pdb
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csc.exe
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csc.exe.config
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csc.rsp
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csi.exe
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csi.exe.config
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csi.rsp
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Buffers.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Memory.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\vbc.exe
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\vbc.exe.config
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\vbc.rsp
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\VBCSCompiler.exe
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\Antlr3.Runtime.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\Newtonsoft.Json.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Helpers.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Mvc.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Optimization.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Razor.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.Deployment.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.Razor.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\WebGrease.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\Antlr3.Runtime.pdb
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\Newtonsoft.Json.xml
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Optimization.xml
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Razor.xml
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.xml
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.Deployment.xml
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.Razor.xml
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Helpers.xml
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Mvc.xml
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.AssemblyReference.cache
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.CoreCompileInputs.cache
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.CopyComplete
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.dll
+C:\Users\medical\Desktop\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.pdb
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\AdventureWorksManager.dll.config
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\AdventureWorksManager.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\AdventureWorksManager.pdb
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csc.exe
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csc.exe.config
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csc.rsp
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csi.exe
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csi.exe.config
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\csi.rsp
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Buffers.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Memory.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\vbc.exe
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\vbc.exe.config
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\vbc.rsp
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\VBCSCompiler.exe
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\Antlr3.Runtime.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\Newtonsoft.Json.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Helpers.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Mvc.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Optimization.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Razor.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.Deployment.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.Razor.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\WebGrease.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\Antlr3.Runtime.pdb
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\Newtonsoft.Json.xml
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Optimization.xml
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Razor.xml
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.xml
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.Deployment.xml
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Webpages.Razor.xml
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Helpers.xml
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\bin\System.Web.Mvc.xml
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.AssemblyReference.cache
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.CoreCompileInputs.cache
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.csproj.CopyComplete
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.dll
+C:\Users\medical\Desktop\School\MarkoKovačević_RWA21\AdventureWorksManager\obj\Debug\AdventureWorksManager.pdb

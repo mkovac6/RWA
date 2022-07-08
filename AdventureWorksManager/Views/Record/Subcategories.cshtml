@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewBag.Title = "Subcategories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    function deleteSubcategory(id) {
+
+        if (confirm('Are you sure you want to delete this subcategory? Doing so will also delete all of its products')) {
+
+
+            $.ajax({
+                url: ' @Url.RouteUrl("Subcategories")',
+                method: 'post',
+                data: { subcatId: id, name : null },
+                success: function () {
+
+                    location.reload();
+
+
+                }
+            })
+
+        }
+
+    }
+
+    function addSubcategory() {
+
+        var subName = $('#txtName').val()
+        var id = $('#ddlCategory').val();
+
+       
+        var iChars = "!@@#$%^&*()+=[]\\\';/{}|\":<>?";
+        let valid = 1;
+        
+
+        for (var j = 0; j < subName.length; j++) {
+            if (iChars.indexOf(subName.charAt(j)) != -1) {
+                valid = 0;
+                break;
+            }
+        }
+
+        if (subName === "" || valid === 0 || subName.trim() === "" ) {
+            alert('Name is mandatory and must not contain special characters!')
+        }
+        else {
+             $.ajax({
+                url: ' @Url.RouteUrl("Subcategories")',
+                method: 'post',
+                 data: { subcatId: id, name: subName },
+                dataType : 'text',
+                success: function () {
+
+                    alert('Subcategory added')
+                    location.reload();
+
+                }
+            })
+        }
+
+    }
+</script>
+
+<div class="container">
+
+    <h2>Subcategories</h2>
+
+
+    <div id="dltContainer" class="container-sm">
+        <table id="catTable" class="table">
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Subcategory Name
+                </th>
+                <th>
+                    Category Name
+                </th>
+                <th>
+
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.ID
+                    </td>
+                    <td>
+                        @item.Name
+
+                    </td>
+                    <td>
+                        @item.Category.Name
+                    </td>
+                    <td>
+                        @Html.RouteLink("Edit", "EditSubcategory", new { subcatId = item.ID }, new { @class = "btn btn-primary" })
+                        <button name="@item.ID" class="btn btn-danger" onclick="deleteSubcategory(@item.ID)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+
+    <div id="addContainer" class="form-horizontal">
+        <div class="form-group">
+            <h3>Add new subcategory</h3>
+        </div>
+        <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+            <label for="txtName">Subcategory name: </label>
+            <input type="text" id="txtName" />
+        </div>
+        <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+            <label for="ddlCategory">Category: </label>
+            <select id="ddlCategory">
+                @foreach (var item in ViewBag.cats)
+                {
+                    <option value="@item.ID">@item.Name</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-secondary" id="btnAddNew" onclick="addSubcategory()">Add</button>
+        </div>
+
+    </div>
+
+   
+</div>

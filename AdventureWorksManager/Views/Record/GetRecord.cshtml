@@ -1,0 +1,59 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+@*@Html.ActionLink("View items", "GetBillItems", new { billId = item.ID })*@
+            
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetRecord</title>
+</head>
+<body>
+    <div>
+       
+        <h3>Viewing bills for buyer : @ViewBag.buyer.FirstName  @ViewBag.buyer.LastName</h3>
+
+
+        <table id="catTable" class="table">
+            <tr>
+                <th>
+                    Bill Number
+                </th>
+                <th>
+                    Date Issued
+                </th>
+                <th>
+
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.BillNumber
+                    </td>
+                    <td>
+                        @item.IssueDate.ToString("dd/MM/yyyy")
+
+                    </td>
+                <td>
+                    @Html.RouteLink("View items", "BillItems", new { billId = item.ID }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+        </table>
+
+        @*<div class="form-horizontal">
+            @foreach (var item in Model)
+            {
+            <div><span>@item.BillNumber</span>@Html.RouteLink("View items", "BillItems", new { billId = item.ID }) </div>
+            }
+            </div>*@
+        </div>
+    </body>
+</html>

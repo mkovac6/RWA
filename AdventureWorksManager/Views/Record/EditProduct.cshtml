@@ -1,0 +1,115 @@
+﻿
+@{
+    ViewBag.Title = "EditProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    function editProduct(id) {
+
+        var prodName = $('#txtName').val()
+        var prodNumber = $('#txtProdNumber').val()
+        var Colour = $('#txtColour').val()
+        var amount = $('#txtAmount').val()
+        var price = $('#txtPrice').val()
+        var subcatId = $('#ddlSubcategory').val();
+
+
+        let array = [$('#txtName').val(), $('#txtProdNumber').val(),
+            $('#txtColour').val(), $('#txtAmount').val(), $('#txtPrice').val(), $('#ddlSubcategory').val()]
+
+        let valid = 1;
+        let breakCheck = 0;
+
+
+        var iChars = "!@@#$%^&*()+=[]\\\';/{}|\":<>?";
+
+        if (amount <= 0 || price <= 0 || isNaN(amount) || isNaN(price)) {
+            valid = 0;
+            alert("Please enter positive numerical values")
+        }
+        else {
+
+            for (var i = 0; i < array.length; i++) {
+
+
+                if (array[i] === '' || array[i].trim() === "") {
+                    valid = 0;
+                    alert("Please fill all fields");
+                    break;
+                }
+
+                for (var j = 0; j < array[i].length; j++) {
+                    if (iChars.indexOf(array[i].charAt(j)) != -1) {
+                        alert("You entered a special character!");
+                        valid = 0;
+                        breakCheck = 1;
+                        break;
+                    }
+                }
+
+                if (breakCheck == 1) {
+                    break;
+                }
+
+
+            }
+        }
+        
+        if (valid === 1) {
+
+            let output = '';
+
+        array.forEach(element => output += element + "|")
+
+               $.ajax({
+                url: ' @Url.RouteUrl("EditProduct")',
+                method: 'post',
+                   data: { prodId: id, prodInfo : output },
+                success: function () {
+
+                    alert("Changes saved!");
+                    location.reload();
+
+
+                }
+            })
+        }
+
+    }
+</script>
+
+<div id="addContainer" class="form-horizontal">
+    <div class="form-group">
+        <h3>Edit product</h3>
+    </div>
+    <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+        <label for="txtName">Product name: </label>
+        <input type="text" id="txtName" value="@Model.Name" />
+    </div>
+    <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+        <label for="txtProdNumber">Product number: </label>
+        <input type="text" id="txtProdNumber" value="@Model.ProductNumber" />
+    </div>
+    <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+        <label for="txtColour">Product colour: </label>
+        <input type="text" id="txtColour" value="@Model.Colour" />
+    </div>
+    <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+        <label for="txtAmount">Minimal storage amount: </label>
+        <input type="number" min="1" id="txtAmount" value="@Model.MinimalAmountStored" />
+    </div>
+    <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+        <label for="txtPrice">Product price: </label>
+        <input type="text" id="txtPrice" value="@Model.Price" />
+    </div>
+    <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+        <label for="ddlSubcategory">Subcategory: </label>
+        @Html.DropDownList("ddlSubcategory", (SelectList)ViewBag.list)
+
+    </div>
+    <div class="form-group">
+        <button class="btn btn-secondary" id="btnSave" onclick="editProduct(@Model.ID)" >Save</button>
+    </div>
+
+</div>

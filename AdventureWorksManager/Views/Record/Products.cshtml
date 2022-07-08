@@ -1,0 +1,215 @@
+﻿
+@{
+    ViewBag.Title = "Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<script>
+    function deleteProduct(id) {
+
+        if (confirm('Are you sure you want to delete this product?')) {
+
+
+            $.ajax({
+                url: ' @Url.RouteUrl("Products")',
+                method: 'post',
+                data: { prodInfo : id },
+                success: function () {
+
+                    location.reload();
+
+
+                }
+            })
+
+        }
+
+    }
+
+    function addProduct() {
+
+        var prodName = $('#txtName').val()
+        var prodNumber = $('#txtProdNumber').val()
+        var Colour = $('#txtColour').val()
+        var amount = $('#txtAmount').val()
+        var price = $('#txtPrice').val()
+        var subcatId = $('#ddlSubcategory').val();
+
+
+        let array = [$('#txtName').val(), $('#txtProdNumber').val(),
+            $('#txtColour').val(), $('#txtAmount').val(), $('#txtPrice').val(), $('#ddlSubcategory').val()]
+
+        let valid = 1;
+        let breakCheck = 0;
+
+
+        var iChars = "!@@#$%^&*()+=[]\\\';/{}|\":<>?";
+
+        if (amount <= 0 || price <= 0 || isNaN(amount) || isNaN(price)) {
+            valid = 0;
+            alert("Please enter positive numerical values")
+        }
+        else {
+
+            for (var i = 0; i < array.length; i++) {
+
+
+                if (array[i] === '' || array[i].trim() === "") {
+                    valid = 0;
+                    alert("Please fill all fields");
+                    break;
+                }
+
+                for (var j = 0; j < array[i].length; j++) {
+                    if (iChars.indexOf(array[i].charAt(j)) != -1) {
+                        alert("You entered a special character!");
+                        valid = 0;
+                        breakCheck = 1;
+                        break;
+                    }
+                }
+
+                if (breakCheck == 1) {
+                    break;
+                }
+
+
+            }
+        }
+        console.log("Here!")
+        if (valid === 1) {
+
+            let output = '';
+
+        array.forEach(element => output += element + "|")
+
+               $.ajax({
+                url: ' @Url.RouteUrl("Products")',
+                method: 'post',
+                data: { prodInfo : output },
+                success: function () {
+
+                    location.reload();
+
+
+                }
+            })
+
+        }
+
+    }
+</script>
+
+
+<div class="container">
+
+    <h2>Products</h2>
+
+
+    <div id="dltContainer" class="container-sm">
+        <table id="catTable" class="table">
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Product Name
+                </th>
+                <th>
+                    Colour
+                </th>
+                <th>
+                    Product Number
+                </th>
+                <th>
+                    Minimal storage amount
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Subcategory Name
+                </th>
+                <th>
+
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.ID
+                    </td>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        @item.Colour
+                    </td>
+                    <td>
+                        @item.ProductNumber
+                    </td>
+                    <td>
+                        @item.MinimalAmountStored
+                    </td>
+                    <td>
+                        @item.Price
+                    </td>
+                    <td>
+                        @item.Subcategory.Name
+                    </td>
+                    <td>
+                        @Html.RouteLink("Edit", "EditProduct", new { prodId = item.ID }, new { @class = "btn btn-primary" })
+                        <button name="@item.ID" class="btn btn-danger" onclick="deleteProduct(@item.ID)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+
+
+    <div id="addContainer" class="form-horizontal">
+        <div class="form-group">
+            <h3>Add new product</h3>
+        </div>
+        <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+            <label for="txtName">Product name: </label>
+            <input type="text" id="txtName" />
+        </div>
+        <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+            <label for="txtProdNumber">Product number: </label>
+            <input type="text" id="txtProdNumber" />
+        </div>
+        <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+            <label for="txtColour">Product colour: </label>
+            <input type="text" id="txtColour" />
+        </div>
+        <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+            <label for="txtAmount">Minimal storage amount: </label>
+            <input type="number" min="1" id="txtAmount" />
+        </div>
+        <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+            <label for="txtPrice">Product price: </label>
+            <input type="number" min="1" step="0.01" id="txtPrice" />
+        </div>
+        <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+            <label for="ddlSubcategory">Subcategory: </label>
+            <select id="ddlSubcategory">
+                @foreach (var item in ViewBag.subcats)
+                {
+                    <option value="@item.ID">@item.Name</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-secondary" id="btnAddNew" onclick="addProduct()">Add</button>
+        </div>
+
+    </div>
+
+</div>
+

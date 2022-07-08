@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "EditSubcategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+
+        function editSubcategory(id) {
+
+            var subName = $('#txtName').val();
+            let categoryId = $('#ddlCategory').val();
+
+        var iChars = "!@@#$%^&*()+=[]\\\';/{}|\":<>?";
+        let valid = 1;
+
+            for (var j = 0; j < subName.length; j++) {
+                if (iChars.indexOf(subName.charAt(j)) != -1) {
+                valid = 0;
+                break;
+            }
+        }
+
+            if (subName === "" || valid === 0 || subName.trim() === "") {
+            alert('Name is mandatory and must not contain special characters!')
+        }
+        else {
+             $.ajax({
+                url: ' @Url.RouteUrl("EditSubcategory")',
+                method: 'post',
+                 data: { subcatId: id, name: subName, catId: categoryId },
+                dataType : 'text',
+                success: function () {
+
+                    alert('Changes saved')
+
+
+                }
+            })
+        }
+
+    }
+
+</script>
+
+
+<div id="editContainer" class="form-horizontal">
+    <div class="form-group">
+        <h3>Edit subcategory</h3>
+    </div>
+    <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+        <label for="txtName">Subcategory name: </label>
+        <input type="text" id="txtName" value="@Model.Name" />
+    </div>
+    <div class="form-group" style="margin-top:10px; margin-bottom:10px;">
+        <label for="ddlCategory">Category: </label>
+        @Html.DropDownList("ddlCategory",(SelectList)ViewBag.list)
+        @*<select id="ddlCategory">
+            @foreach (var item in ViewBag.categories)
+            {
+                <option selected="@item.ID == @Model.Category.ID" value="@item.ID">@item.Name</option>
+            }
+        </select>*@
+    </div>
+    <div class="form-group">
+        <button class="btn btn-secondary" id="btnAddNew" onclick="editSubcategory(@Model.ID)">Edit</button>
+    </div>
+
+</div>
